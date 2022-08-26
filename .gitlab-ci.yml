@@ -1,0 +1,11 @@
+stages:
+  - build
+build-code-job:
+  stage: build
+  tags:
+    - admin 
+  script:
+    - git config --list
+    - cd /var/www/admin_crawl_website
+    - git pull ${CI_REPOSITORY_URL}
+    - php artisan migrate

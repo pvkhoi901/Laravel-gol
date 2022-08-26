@@ -1,0 +1,30 @@
+ESN,CODE,CODEDETAIL,CARRIER,CODEDEF,CODEEXPLAIN,CARRIEDID,CARRIENAME
+,,,,1,Unable to activate,1,AT&T (GSM)
+,,,,2,Charging / Data Port,2,VERIZON
+,,,,3,Battery Not Holding Charge,3,SPRINT
+,,,,4,Camera,4,T-MOBILE (GSM)
+,,,,5,Cannot Make/Receive Calls,5,TRACFONE
+,,,,6,Does not Power Up,6,METRO PCS
+,,,,7,Bad Charger,7,CRICKET
+,,,,8,Phone Freezing,8,US CELLULAR
+,,,,9,Bad Keypad,9,GENERIC
+,,,,10,Bad Mic,11,BOOST
+,,,,11,Bad Ear Piece,12,CELLULAR SOUTH
+,,,,12,No Service,13,TELUS
+,,,,13,Physical Damage,14,VIRGIN MOBILE
+,,,,14,Faulty Side Buttons,15,ALLTEL
+,,,,15,Software,16,PAGE PLUS
+,,,,16,Sound/Speaker,17,NEXTEL
+,,,,17,Wrong Carrier,18,KOODO
+,,,,18,No Internet,19,Unlocked GSM
+,,,,19,No MMS,,
+,,,,20,No Text Messaging,,
+,,,,21,Vibration Mode not working,,
+,,,,22,Touch Screen,,
+,,,,23,Display,,
+,,,,24,"Other, please specify",,
+,,,,,,,
+,,,,,,NOTE : ,
+,,,,,,"IMPORTANT NOTE: IF NO CARRIER IS SPECIFIED, THE SYSTEM WILL ASSSIGN „9“ FOR „GENERIC“",
+,,,,,,IMPORTANT NOTE: ALL OTHER CODES IN THE „CODE“ COLUMN WILL BE REJECTED AS INVALID BY OUR SYSTEM!!!,
+,,,,,,"IF YOU HAVE MORE THAN ONE RMA CODE FOR ONE ESN, PUT ONLY ONE IN THE CODE COLUMN, THE OTHERS INTO THE CODEDETAIL COLUMN!!!",

@@ -1,0 +1,151 @@
+// DataTables
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.css";
+@import "~datatables.net-buttons-bs4/css/buttons.bootstrap4.css";
+
+// Write your custom css/scss here
+.pac-container {
+    z-index: 1051 !important;
+}
+
+.datepicker table.table-condensed {
+    width: 100%;
+}
+
+.form-control.datepicker:read-only {
+    background: inherit;
+}
+
+
+.pagination .page-item .page-link,
+.pagging-disable {
+    height: 34px;
+}
+
+.page-item {
+    cursor: pointer;
+}
+
+.line-border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, .200);
+    margin-bottom: 10px;
+    border-left: 5px solid #1560bd;
+    padding-top: 0px !important;
+    padding-left: 5px;
+    color: #1560bd;
+    font-weight: bold;
+    height: 22px;
+}
+
+.line-border-bottom label {
+    margin-bottom: 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.line-border-bottom ul {
+    float: right;
+    list-style: none;
+    margin-right: 10px;
+    border-left : none;
+    border-top : none;
+}
+
+.line-border-bottom .icons-list li a {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-control-lg {
+    height: calc(2em + 1rem + 2px);
+}
+
+.overflow_x{
+    overflow-x: auto;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    color : #ffffff;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice .select2-selection__choice__remove{
+    color : #ffffff;
+}
+
+.hidden{
+    display: none;
+}
+
+a.collapse-note[aria-expanded=false] .fa-minus {
+    display: none;
+}
+a.collapse-note[aria-expanded=true] .fa-plus {
+    display: none;
+}
+
+.boder-error{
+    border-color: red;
+}
+
+.fa-arrow-up{
+    color: green;
+}
+
+.fa-arrow-down{
+    color: red;
+}
+
+
+
+.div_loading {
+    background: #000000;
+    display: none;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+}
+
+
+.image_loading_popup {
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    padding: 10px;
+}
+
+.modal-dialog {
+    max-width: 1000px !important;
+    width: 1000px !important;
+}
+
+
+.image_loading_popup img{
+    width: 100px;
+    height: 100px;
+}
+
+#datatable_wrapper{
+    overflow-x: auto;
+}
+
+.select_category{
+    background-color : gold;
+}
+
+
+.detail_api{
+    background-color: #3B7FFF;
+}
+
+
+.detail_api .actionName{
+    color: white;
+}
+
+textarea{
+    line-height: 2 !important;
+}
